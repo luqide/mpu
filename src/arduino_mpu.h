@@ -34,7 +34,7 @@ static inline void get_ms(unsigned long *count){
 }
 
 static inline void reg_int_cb(struct int_param_s *int_param){
-	attachInterrupt(digitalPinToInterrupt(int_param->pin), int_param->cb, RISING);
+	attachInterrupt((int_param->pin), int_param->cb, RISING);
 }
  
 #ifdef __cplusplus
