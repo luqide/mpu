@@ -1,5 +1,4 @@
 #include "arduino_mpu.h"
-#include "Arduino.h"
 #include <Wire.h>
 
 #ifdef __cplusplus
